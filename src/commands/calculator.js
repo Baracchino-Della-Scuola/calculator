@@ -72,7 +72,7 @@ const components = [
 		components: [
 			{
 				type: 2,
-				label: 'Clear',
+				label: 'clear',
 				style: 4,
 				custom_id: 'calculator_clear',
 			},
