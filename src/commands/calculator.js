@@ -34,7 +34,7 @@ module.exports = {
 					data: {
 						type: 7,
 						data: {
-							content: 'Something went wrong evaluating. You probably supplied an invalid expression.',
+							content: 'Oooops. Something went wrong evaluating. You probably supplied an invalid expression.',
 							components,
 						},
 					},
