@@ -9,7 +9,7 @@ registerEvents(bot);
 
 bot.ws.on('INTERACTION_CREATE', async (interaction) => {
 	if (interaction.type !== 3) return;
-	const command = interaction.data.custom_id.split('_')[0];
+	const command = interaction.data.custom_id.split('_')[0]; // The command (THanks starnumber for explaining)
 	bot.slashCommands.get(command).onButtonClick(interaction, bot);
 });
 
